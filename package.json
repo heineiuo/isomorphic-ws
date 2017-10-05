@@ -1,0 +1,26 @@
+{
+  "name": "isomorphic-ws",
+  "version": "3.2.0",
+  "description": "An isomorphic release of https://www.npmjs.com/package/ws",
+  "main": "node.js",
+  "browser": "browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heineiuo/isomorphic-ws.git"
+  },
+  "keywords": [],
+  "author": "@heineiuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heineiuo/isomorphic-ws/issues"
+  },
+  "homepage": "https://github.com/heineiuo/isomorphic-ws#readme",
+  "dependencies": {
+    "ws": "3.2.0"
+  },
+  "files": [
+    "node.js",
+    "browser.js",
+    "README.md"
+  ]
+}
