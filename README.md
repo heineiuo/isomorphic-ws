@@ -6,6 +6,18 @@ It uses:
 - [ws](https://github.com/websockets/ws) on Node
 - [global.WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) in browsers
 
+## Limitations
+
+Before using this module you should know that
+[`ws`](https://github.com/websockets/ws/blob/master/doc/ws.md#class-websocket)
+is not perfectly API compatible with
+[WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket),
+you should always test your code against both Node and browsers.
+
+Some major differences:
+
+- no `Server` implementation in browsers
+
 ## Usage
 
 You need to install both this package and [ws](https://github.com/websockets/ws):
