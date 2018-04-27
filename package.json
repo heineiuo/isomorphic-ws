@@ -26,6 +26,7 @@
     "ws": "*"
   },
   "files": [
+    "index.d.ts",
     "node.js",
     "browser.js",
     "README.md"
