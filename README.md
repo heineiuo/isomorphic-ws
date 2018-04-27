@@ -38,11 +38,11 @@ const ws = new WebSocket('wss://echo.websocket.org/', {
 ws.onopen = function open() {
   console.log('connected');
   ws.send(Date.now());
-});
+};
 
 ws.onclose = function close() {
   console.log('disconnected');
-});
+};
 
 ws.onmessage = function incoming(data) {
   console.log(`Roundtrip time: ${Date.now() - data} ms`);
@@ -50,7 +50,7 @@ ws.onmessage = function incoming(data) {
   setTimeout(function timeout() {
     ws.send(Date.now());
   }, 500);
-});
+};
 ```
 
 ## License
