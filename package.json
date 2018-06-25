@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/heineiuo/isomorphic-ws#readme",
   "peerDependencies": {
+    "uws": "*",
     "ws": "*"
   },
   "files": [

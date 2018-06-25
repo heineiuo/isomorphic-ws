@@ -1,3 +1,10 @@
 "use strict";
 
-module.exports = require('ws');
+var ws;
+try {
+  ws = require('uws');
+} catch (e) {
+  ws = require('ws');
+}
+
+module.exports = ws;
