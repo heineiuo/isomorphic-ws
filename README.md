@@ -45,7 +45,7 @@ ws.onclose = function close() {
 };
 
 ws.onmessage = function incoming(data) {
-  console.log(`Roundtrip time: ${Date.now() - data} ms`);
+  console.log(`Roundtrip time: ${Date.now() - data.data} ms`);
 
   setTimeout(function timeout() {
     ws.send(Date.now());
