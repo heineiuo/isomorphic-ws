@@ -17,6 +17,9 @@ you should always test your code against both Node and browsers.
 Some major differences:
 
 - no `Server` implementation in browsers
+- no support for the contructor
+  [`options`](https://github.com/websockets/ws/blob/master/doc/ws.md#new-websocketaddress-protocols-options)
+  argument in browsers
 
 ## Usage
 
@@ -29,11 +32,9 @@ You need to install both this package and [ws](https://github.com/websockets/ws)
 Then just require this package:
 
 ```js
-const WebSocket = require('isomorphic-ws')
+const WebSocket = require('isomorphic-ws');
 
-const ws = new WebSocket('wss://echo.websocket.org/', {
-  origin: 'https://websocket.org'
-});
+const ws = new WebSocket('wss://echo.websocket.org/');
 
 ws.onopen = function open() {
   console.log('connected');
