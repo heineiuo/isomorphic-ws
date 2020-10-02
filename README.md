@@ -17,7 +17,7 @@ you should always test your code against both Node and browsers.
 Some major differences:
 
 - no `Server` implementation in browsers
-- no support for the contructor
+- no support for the constructor
   [`options`](https://github.com/websockets/ws/blob/master/doc/ws.md#new-websocketaddress-protocols-options)
   argument in browsers
 
