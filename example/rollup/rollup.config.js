@@ -7,5 +7,5 @@ export default {
     format: "es",
     file: "app.output.js",
   },
-  plugins: [resolve()],
+  plugins: [resolve({ browser: true })],
 };
