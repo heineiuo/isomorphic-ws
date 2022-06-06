@@ -3,6 +3,7 @@
   "version": "4.0.1",
   "description": "Isomorphic implementation of WebSocket",
   "main": "node.js",
+  "types": "index.d.ts",
   "browser": "browser.js",
   "repository": {
     "type": "git",
