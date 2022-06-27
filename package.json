@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-ws",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Isomorphic implementation of WebSocket",
   "main": "node.js",
   "types": "index.d.ts",
