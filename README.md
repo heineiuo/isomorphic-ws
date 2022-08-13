@@ -34,7 +34,7 @@ Then just require this package:
 ```js
 const WebSocket = require('isomorphic-ws');
 
-const ws = new WebSocket('wss://echo.websocket.org/');
+const ws = new WebSocket('wss://websocket-echo.com/');
 
 ws.onopen = function open() {
   console.log('connected');
