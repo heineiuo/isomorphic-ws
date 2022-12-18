@@ -2,6 +2,7 @@
   "name": "isomorphic-ws",
   "version": "5.0.0",
   "description": "Isomorphic implementation of WebSocket",
+  "type": "module",
   "main": "node.js",
   "types": "index.d.ts",
   "browser": "browser.js",
