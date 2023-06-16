@@ -3,8 +3,12 @@
   "version": "5.0.0",
   "description": "Isomorphic implementation of WebSocket",
   "main": "node.js",
+  "exports": {
+    "browser": "./browser.js",
+    "import": "./node.mjs",
+    "require": "./node.js"
+  },
   "types": "index.d.ts",
-  "browser": "browser.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heineiuo/isomorphic-ws.git"
@@ -29,6 +33,7 @@
   "files": [
     "index.d.ts",
     "node.js",
+    "node.mjs",
     "browser.js",
     "README.md"
   ]
